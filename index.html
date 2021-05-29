@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shoepee</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+<body onload="showA()">
+<div class="container-fluid">
+<div class="row">
+<div class="col-1" id="vertNav">
+
+    
+    <div class="col-sm brand" id="showAdid" onclick="showA()"></div>
+    <div class="col-sm brand" id="showVans" onclick="showV()"></div>
+    <div class="col-sm brand" id="showDrmt" onclick="showD()"></div>
+    <div class="col-sm brand" id="showHupu" onclick="showH()"></div>
+    <div class="col-sm brand" id="showNike" onclick="showN()"></div>
+    <div class="col-sm brand" id="showFila" onclick="showF()"></div>
+    
+    
+
+    
+</div>
+<div class="col-11">
+        
+        <div id="navbar">
+            <div class="logo"></div>
+            <table class="icons">
+                <tr><a href="#poggers"><img style="height:34px; width: 34px; position: fixed; z-index: 9999; top: 5%;right: 5%" src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG38.png" alt="cart"></a></tr>
+                
+                <tr><a style=" text-decoration: none; font-family: 'Poppins', sans-serif; color: black; position: fixed; z-index: 9999; top: 6%;right: 15%"href="aboutthecompany.html">COMPANY</a></tr>
+            
+            </table>
+            </div>
+    <div id="homebody">
+            <!-- this portion is the page of uhm yung home oke :D   -->
+        
+        <!-- End of Homepageeeeee start na tayo okok -->
+
+        <form>
+        <div id="adidasshop" class="brandpage">
+                
+            <div class="row" id="adidone">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Ultraboost 21 Shoes</h1>
+                <h2 id="desc">Adidas 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P9500</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/ffdcc6cacd9b4c16b85eac7900cb1137_9366/Ultraboost_21_Shoes_Black_FZ1921_01_standard.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div>
+            </div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="adidtwo">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">HU NMD Shoes</h1>
+                <h2 id="desc">Adidas 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P13000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart2()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/48eba83310154df98b8aac2c0102a3b0_9366/HU_NMD_Shoes_Blue_GY0094_01_standard.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="adidthree">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Superstar Mules</h1>
+                <h2 id="desc">Adidas 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4500</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart3()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/0fc2ad78de8f42029c72ac7900b2615d_9366/Superstar_Mules_Black_FZ2268_01_standard.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="adidfour">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Stan Smith Primeblue Shoes</h1>
+                <h2 id="desc">Adidas 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4800</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart4()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/441ccf10f73048bfb01dacbd0114dfe2_9366/Stan_Smith_Primeblue_Shoes_Orange_FX5602_01_standard.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="adidfive">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Grand Court Shoes</h1>
+                <h2 id="desc">Adidas 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3800</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart5()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto:sensitive,fl_lossy/bcdc46b937b841279a78aba400c53379_9366/grand-court-shoes.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="adidsix">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Ultraboost 6.0 DNA Shoes</h1>
+                <h2 id="desc">Adidas 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P8900</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart6()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/7be3dc89d51b4ff48e6dac68011db681_9366/Ultraboost_6.0_DNA_x_Parley_Shoes_White_FZ0250_01_standard.jpg); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Adidas</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+        </div>
+            
+        <div id="vansshop" class="brandpage">
+                
+            <div class="row" id="vansone">
+                 <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Bandana Sk8-Hi</h1>
+                <h2 id="desc">Vans 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3750</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart7()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://images.vans.com/is/image/Vans/2QGD9S-HERO?$583x583$); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="vanstwo">
+                 <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Vans x Parks Project Authentic</h1>
+                <h2 id="desc">Vans 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3250</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart8()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://images.vans.com/is/image/Vans/KS96PK-HERO?$desktop-2up$); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="vansthree">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Authentic</h1>
+                <h2 id="desc">Vans 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P2500</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart9()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/STIRRCHPKWHTBLK705.jpg?v=1618560408); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="vansfour">
+                 <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Suede Canvas Old Skool V</h1>
+                <h2 id="desc">Vans 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3750</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart10()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://images.vans.com/is/image/Vans/EE3BLK-HERO?$583x583$); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="vansfive">
+                 <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Aloha Classic Slip-on</h1>
+                <h2 id="desc">Vans 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart11()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://images.vans.com/is/image/Vans/AO86WC-HERO?$desktop-2up$); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="vanssix">
+                 <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Retro Cali Sk8-Hi Tapered</h1>
+                <h2 id="desc">Vans 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart12()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://images.vans.com/is/image/Vans/D29OIU-HERO?$583x583$); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Vans</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+        </div>
+        <div id="drmtshop" class="brandpage">
+                
+            <div class="row" id="dmrtone">
+                <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">1460 Smooth Leather Lace Up Boots</h1>
+                <h2 id="desc">Dr. Martens 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P7500</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart13()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://i1.adis.ws/i/drmartens/11822006.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat; background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3" style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="dmrttwo">
+               <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">1461 Rick Owens Bex Leather Oxford Shoes</h1>
+                <h2 id="desc">Dr. Martens 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P15000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart14()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://i1.adis.ws/i/drmartens/27026001.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat; background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3" style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="dmrtthree">
+                <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">2976 Bex Smooth Leather Chelsea Boots</h1>
+                <h2 id="desc">Dr. Martens 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P8000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart15()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://i1.adis.ws/i/drmartens/26205001.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat; background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3" style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="dmrtfour">
+                <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">Sinclair Women’s Leather Platform Boots</h1>
+                <h2 id="desc">Dr. Martens 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P10000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart16()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://i1.adis.ws/i/drmartens/22564001.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat;background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3" style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="dmrtfive">
+                <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">8065 Smooth Leather Mary Jane Shoes</h1>
+                <h2 id="desc">Dr. Martens 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P16000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart17()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: urlhttps://i1.adis.ws/i/drmartens/12916001.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat;background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3" style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="dmrtsix">
+                <div id="changing1" style="background-color: #e2e2e2" class="col-sm-3">
+                <h1 id="title1">Jadon Smooth Leather Platform Boots</h1>
+                <h2 id="desc">Dr. Martens 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P9000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart18()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://i1.adis.ws/i/drmartens/15265001.80.jpg?$medium$); background-size: contain; background-repeat: no-repeat;background-color: #e2e2e2"> <h1 id="blend">Dr. Martens</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3"  style="background-color: #e2e2e2">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div id="hupushop" class="brandpage">
+                
+            <div class="row" id="hupuone">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Men’s Expert Knit Plain Toe Oxford</h1>
+                <h2 id="desc">Hush Puppies 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P6000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart19()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPM-HM01919-005-042420-S21-000?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="huputwo">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Men’s Bennet Wingtip Oxford</h1>
+                <h2 id="desc">Hush Puppies 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P7000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart20()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPM-HM02125-007-092319-F20-000?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="huputhree">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Men’s Davis Oxford Perfect Fit</h1>
+                <h2 id="desc">Hush Puppies 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P7000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart21()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPM-HM02119-211-050719-S20-000?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="hupufour">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Women’s Everyday Slip-on</h1>
+                <h2 id="desc">Hush Puppies 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4000</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart22()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPW-HW06753-008-032421-F21-000?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="hupufive">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Women’s Sabine Mule</h1>
+                <h2 id="desc">Hush Puppies 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4500</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart23()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPW-HW06768-007-070920-S21-000?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="hupusix">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Women’s Sadie D’Orsay</h1>
+                <h2 id="desc">Hush Puppies 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4250</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart24()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://s7d4.scene7.com/is/image/WolverineWorldWide/HPW-HW06761-002-061820-S21-000+%282%29?wid=826&hei=685&resMode=bilin&op_usm=0.5,1.0,8,0&iccEmbed=0&printRes=72); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">HushPup</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+
+            
+            
+            
+            
+
+        </div>
+        <div id="nikeshop" class="brandpage">
+                
+            <div class="row" id="nikeone">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Nike Air Force 1 ’07 LV8</h1>
+                <h2 id="desc">Nike 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P5295</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart25()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/616218b5-9879-4bb5-8c81-446c6f9c3d46/air-force-1-07-lv8-shoe-ldZ4Ml.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="niketwo">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Nike Blazer Mid ’77 Vintage </h1>
+                <h2 id="desc">Nike 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P5895</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart26()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/029630a8-2061-49ab-80b7-3ce4ec05c6a4/blazer-mid-77-se-shoe-dLVZSj.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="nikethree">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">NikeCourt Air Max Volley</h1>
+                <h2 id="desc">Nike 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4595</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart27()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/73a6db17-55d5-4eed-810d-f019c57fe361/nikecourt-air-max-volley-hard-court-tennis-shoe-LMFpgP.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="nikefour">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Nike Air Zoom Pegasus 38 </h1>
+                <h2 id="desc">Nike 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P6295</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart28()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5eb3f240-d722-4652-bbe0-046de40c8067/air-zoom-pegasus-38-running-shoe-D1tCt1.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="nikefive">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Nike Air Max 90y</h1>
+                <h2 id="desc">Nike 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P6445</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart29()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4ee9b69a-81cb-4903-b349-9c0409f95dda/air-max-90-shoe-9FZqKz.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="nikesix">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Nike Court Vision Alta</h1>
+                <h2 id="desc">Nike 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3895</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart30()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/da65cff6-b8e3-4f23-97dc-310bad241ebc/court-vision-alta-shoe-8xrQqK.png); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Nike</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+
+            
+            
+            
+            
+            
+            </div>
+            
+            
+
+        
+        <div id="filashop" class="brandpage">
+            <div class="row" id="filaone">
+            <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Fila Festivo ’91 Unisex Sneakers</h1>
+                <h2 id="desc">Fila 1</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P2999</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart31()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/FILAFESTIVO911255.jpg?v=1618574774); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="filatwo">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Oxidation Men’s Running Shoes</h1>
+                <h2 id="desc">Fila 2</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3998</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart()32" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/OXIDATIONBLKFRED905.jpg?v=1618573724); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="filathree">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Capello Men’s Running Shoes</h1>
+                <h2 id="desc">Fila 3</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P1999</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart33()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/CAPELLOBLACK905.jpg?v=1618824989); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="filafour">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Zagato Unisex Lifestyle Sneakers</h1>
+                <h2 id="desc">Fila 4</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P2699</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart34()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/ZAGATOBLACKBGE905.jpg?v=1618565538); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="filafive">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Disruptor II Heart Women’s Lifestyle Sneakers</h1>
+                <h2 id="desc">Fila 5</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P3999</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart35()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/DISRUPTORIIHEART650705.jpg?v=1618565177); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div>
+    <!-- --------------------------------------------------->
+            <div class="row" id="filasix">
+                <div id="changing1" class="col-sm-3">
+                <h1 id="title1">Stirr Women’s Running Shoes</h1>
+                <h2 id="desc">Fila 6</h2>
+                    <br><br>
+                    <h3 id="shoeprice">Price: P4250</h3>
+                    
+                    <button type="button" class="addto" onclick="addtocart36()" id="addthis">Add to Cart</button>
+                </div>
+                <div id="changing2" class="col-sm-6" style="background: url(https://cdn.shopify.com/s/files/1/0420/9547/6901/products/STIRRCHPKWHTBLK705.jpg?v=1618560408); background-size: contain; background-repeat: no-repeat"> <h1 id="blend">Fila</h1>
+                    
+                
+                <button class="indivnext" id="left" onclick="left()">&lt;</button>
+                
+                <button class="indivnext" id="right" onclick="right()">&gt;</button>
+                    
+                </div>
+                
+                <div class="col-sm-3">
+                <h2 id="disp1">SIZE</h2>
+                <input type="radio" id="US6" class="sizeclass" name="sizz" value="US6">
+                    <label for="US6" class="sizelabel">US6</label>
+                <input type="radio" id="US7" class="sizeclass" name="sizz" value="US7">
+                    <label for="US7" class="sizelabel">US7</label>
+                <input type="radio" id="US8" class="sizeclass" name="sizz" value="US8">
+                    <label for="US8" class="sizelabel">US8</label>
+                <input type="radio" id="US9" class="sizeclass" name="sizz" value="US9">
+                    <label for="US9" class="sizelabel">US9</label>
+                <input type="radio" id="US10" class="sizeclass" name="sizz" value="US10">
+                    <label for="US10" class="sizelabel">US10</label>
+               
+                
+                <h2 id="disp1">COLOR</h2>
+                <input type="radio" class="colorclass" name="cool" id="color1" >
+                    <label for="color1" class="colorlabel">C1</label>
+                <input type="radio" class="colorclass" name="cool" id="color2" >
+                    <label for="color2" class="colorlabel">C2</label>
+                <input type="radio" class="colorclass" name="cool" id="color3" >
+                    <label for="color3" class="colorlabel">C3</label>
+                
+                </div></div></div>
+    <!-- --------------------------------------------------->
+        </form>
+        <div class="row">
+        <div class="col-12">
+            <table>
+		<tr>
+		<td>
+		<h1 style="font-family: 'Odibee Sans">Cart</h1>
+		<ul id="poggers">
+		<td>
+		<form action="http://savantandsparktest.ml/checkout.php" method="post">
+                 <label class = "defaultlabelsucks"> Name</label>
+                 <input class="form-control" id="cust_name" type="text" placeholder="Jake Sadorra" name = "cust_name">
+                 <label class = "defaultlabelsucks"> Email</label>
+                 <input class="form-control" id="cust_email" type="text" placeholder="jesadorra@clc.pshs.edu.ph" name = "cust_email">
+                 <label class = "defaultlabelsucks"> Address</label>
+                 <input class="form-control" id="cust_address" type="text" placeholder="Hogwarts" name = "cust_addr">
+
+                 <input class="form-control" id="cust_order" type="text" placeholder="Address" name="cust_order" style="display: none">
+                    <br>
+                    <input type="submit" value="Submit" class="btn btn-dark">
+            </form>
+            </td>
+            </ul>
+            </td>
+            </tr>
+            </table></div></div>
+
+        
+        
+    </div>
+</div>
+</div>
+</div> 
+
+    </body>
+</html>
