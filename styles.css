@@ -226,7 +226,7 @@ p .member:hover{
     padding: 15px;
     border: none;
     font-family: 'Poppins', sans-serif;
-    transition: 0.7s ease-in-out;
+
 }
 .addto:active{
     background-color: red;
