@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About the Company</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: #04081B;
+                font-family: 'Raleway', sans-serif;
+                color:#E0FBFC;
+            }
+            #header {
+                text-align: center;
+                font-family: 'Julius Sans One', sans-serif;
+            }
+            #horiline {
+                border: 2px solid #E0FBFC;
+                border-radius: 2px;
+            }
+            h2 {
+                font-family: 'Julius Sans One', sans-serif;
+                font-size: 33.5pt;
+                margin-bottom: 3.5px;
+            }
+            .divbody {
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-bottom: 40px;
+            }
+            #textbody1 {
+                text-align: left;
+                font-size: 12pt;
+            }
+            #textbody2 {
+                text-align: left;
+                font-size: 12pt;
+            }
+            #textbody3 {
+                text-align: left;
+                font-size: 12pt;
+            }
+            #textbody4 {
+                text-align: right;
+                font-size: 12pt;
+            }
+            .introlol1 {
+                margin-bottom: 7.5px;
+                margin-left: 30px;
+                text-indent: 50px;
+            }
+            .introlol2 {
+                margin-bottom: 7.5px;
+                margin-left: 30px;
+                text-indent: 50px;
+            }
+            .contri {
+                font-size: 15pt;
+                font-style: italic;
+                font-weight: bold;
+                letter-spacing: 0.75px;
+            }
+            #haguepicdiv {
+                float: left;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                margin: 15px;
+                background-image: url(https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.6435-9/165276278_940382800106077_6755420292495268831_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WLplPtsjoX8AX-vwOdY&_nc_ht=scontent.fcrk1-1.fna&oh=147452837ad46578e49f8e85dd5adc8b&oe=60D303B5);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            #rileypicdiv {
+                float: left;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                margin: 15px;
+                background-image: url(https://scontent.fcrk1-3.fna.fbcdn.net/v/t1.6435-9/171097536_4006846452737563_3683682823519554965_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dziM7SCUKqQAX8P-4dL&_nc_ht=scontent.fcrk1-3.fna&oh=7ba1a383df436d9b8a6d6b5f85bec5db&oe=60D51561);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            #rosspicdiv {
+                float: left;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                margin: 15px;
+                background-image: url(https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.6435-9/79112750_571496303609037_1142746709902753792_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=hjYMrTrHqGEAX-LtxGH&_nc_ht=scontent.fcrk1-1.fna&oh=9a70819cb4a00ec7afb378ebc06f0e73&oe=60D2B1E6);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            #rhyanpicdiv {
+                float: right;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                margin: 15px;
+                background-image: url(https://i.ibb.co/XjH3H3H/rhyN.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            @media screen and (max-width: 991px) {
+                h2 {
+                    font-size: 30pt;
+                }
+                #textbody1 {
+                    font-size: 11pt;
+                }
+                #textbody2 {
+                    text-align: right;
+                    font-size: 11pt;
+                }
+                #textbody3 {
+                    font-size: 11pt;
+                }
+                .contri {
+                    font-size: 13pt;
+                }
+                #haguepicdiv {
+                    float: left;
+                    width: 225px;
+                    height: 225px;
+                }
+                #rileypicdiv {
+                    float: left;
+                    width: 225px;
+                    height: 225px;
+                }
+                #rosspicdiv {
+                    float: left;
+                    width: 225px;
+                    height: 225px;
+                }
+            }
+            @media screen and (max-width: 575px) {
+                .brlol {
+                    display: none;
+                }
+                h2 {
+                    font-size: 27pt;
+                }
+                #textbody1 {
+                    font-size: 9.5pt;
+                }
+                #textbody2 {
+                    font-size: 9.5pt;
+                }
+                #textbody3 {
+                    font-size: 9.5pt;
+                }
+                .contri {
+                    font-size: 11.5pt;
+                }
+                .introlol1 {
+                    margin-bottom: 7.5px;
+                    margin-left: 20px;
+                    text-indent: 37.5px;
+                }
+                .introlol2 {
+                    margin-bottom: 7.5px;
+                    margin-right: 20px;
+                    text-indent: 37.7px;
+            }
+                #haguepicdiv {
+                    float: left;
+                    width: 200px;
+                    height: 200px;
+                }
+                #rileypicdiv {
+                    float: right;
+                    width: 200px;
+                    height: 200px;
+                }
+                #rosspicdiv {
+                    float: left;
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+            @media screen and (max-width: 450px) {
+                .brlol {
+                    display: none;
+                }
+                h2 {
+                    font-size: 23.5pt;
+                }
+                #textbody1 {
+                    font-size: 9pt;
+                }
+                #textbody2 {
+                    font-size: 9pt;
+                }
+                #textbody3 {
+                    font-size: 9pt;
+                }
+                .contri {
+                    font-size: 10.5pt;
+                }
+                .introlol1 {
+                    margin-bottom: 7.5px;
+                    margin-left: 17px;
+                    text-indent: 33.5px;
+                }
+                .introlol2 {
+                    margin-bottom: 7.5px;
+                    margin-right: 17px;
+                    text-indent: 33.5px;
+                }
+                #haguepicdiv {
+                    float: left;
+                    width: 175px;
+                    height: 175px;
+                }
+                #rileypicdiv {
+                    float: right;
+                    width: 175px;
+                    height: 175px;
+                }
+                #rosspicdiv {
+                    float: left;
+                    width: 175px;
+                    height: 175px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" id="maincontent">
+            <br>
+            <br>
+            <div class="row" id="header">
+                <div class="col-12">
+                <h1>about the company</h1></div>
+            </div>
+            <hr id="horiline">
+            <!--
+                <div>
+                <nav class="navbar navbar-expand-sm">
+                    <ul  class="navbar-nav">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="">HOME</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="">CART</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            -->
+            <br>
+            <br class="brlol">
+                    <div id="textbody1" class="row">
+                        <div class="col-sm-4">
+                            <div id="haguepicdiv">
+                            </div>
+                        </div>
+                            <div class="col-sm-8">
+                                <h2>Hague Garcia</h2>
+                                <p class="introlol1">
+                                    Hague is my name & cramming requirements last minute is my game 👉🤑👉. 
+                                    Gr4ph1c d3s1gN is my p4$s10n, so I really hope you liked the design and 
+                                    animations I've put together for this project. This summer vacation I'm 
+                                    looking forward to self-improvement and Philippines achieving herd immunity 
+                                    before another semester starts. 
+                                </p>
+                                <p class="introlol1">
+                                    Thank you Sir JM for the BEST computer science 
+                                    class I've had so far. The lessons are so interesting and very fun it helped 
+                                    me cope from the stress of online learning. The whole experience further 
+                                    increased my interest in computer science. But most importantly, thank you 
+                                    for the small positive feedbacks you gave during the first quarter. 
+                                    I found them very heartwarming, and made me feel like "Oh, I am going 
+                                    to do better next Lab Activity". 
+                                </p>
+                                <p class="introlol1">
+                                    Thank you for sparking up the little flame 
+                                    I had in me. I will continue to burn as bright as I can.
+                                </p>
+                                <p><span class="contri">Contribution:</span> Designed the Shop Website.</p>
+                            </div>
+                    </div>
+                <br>
+                <br class="brlol">
+                    <div id="textbody2"  class="row">
+                        <div class="col-sm-4">
+                            <div id="rileypicdiv">
+                            </div>
+                        </div>
+                            <div class="col-sm-8">
+                                <h2>Riley Moya</h2>
+                                <p class="introlol2">
+                                    Hi sir, this part is happening again. 
+                                    As we know, my name is Riley Moya from 9 – Pinatubo.
+                                </p>
+                                <p class="introlol2">
+                                    Thank you for being able to teach us even with your busy schedule. 
+                                    Even if sometimes the topic is very hard to understand, thank you 
+                                    for trying your best. Have a great day always.
+                                </p>
+                                <p><span class="contri">Contribution:</span> JavaScript parts such as the add to cart/remove from cart function.</p>
+                            </div>
+                    </div>
+                <br>
+                <br class="brlol">
+                    <div id="textbody3"  class="row">
+                        <div class="col-sm-4">
+                            <div id="rosspicdiv">
+                            </div>
+                        </div>
+                            <div class="col-sm-8">
+                                <h2>Ross Binuya</h2>
+                                <p class="introlol1">
+                                    Hello Sir! Ross Binuya po from 9-Pinatubo, and I have a question 
+                                    po regarding – just kidding. Anyways HAHAHAHA.
+                                </p>
+                                <p class="introlol1">
+                                    This school-year was the first time that you became one of my teachers, 
+                                    and I became one of your students. At first, I was a bit scared since 
+                                    you weren’t my CS teacher during grade 7 and 8, but you proved that thought 
+                                    wrong. Thank you for being such a wonderful teacher in Computer Science 3. 
+                                    To be honest, I wasn’t really interested in CS ever since I had my first step 
+                                    into Pisay. In fact, it was one of the subjects that I used to think as my 
+                                    Achilles’ Heel. But thanks to you Sir, you were able to make the subject 
+                                    very interesting and entertaining. You gave me the motivation to actually 
+                                    put effort in designing my lab exercises. Your positive feedbacks were able 
+                                    to boost my confidence in doing my academic requirements, and I really, 
+                                    REALLY, thank you for that.</p>
+                                <p class="introlol1">
+                                    I hope we will be able to meet next school-year and have discussions again. ^o^
+                                </p>
+                                <p><span class="contri">Contribution:</span> the 'About the Company' Page, and procured the items and links for the photos for the website.</p>                           
+                            </div>
+                    </div>
+                <br>
+                <br>
+                <!-- 
+                    <div id="textbody4" class="row">
+                        <div>
+                            <div id="rhyanpicdiv">
+                            </div>
+                            <h2>Rhyan De Lazo</h2>
+                            <p class="introlol2">ajshdakjdhaskdkak</p>
+                            <p><span class="contri">Contribution:</span> kjshdkajhdks</p>
+                        </div>    
+                    </div>
+               -->
+
+            <br>
+            <br>
+        </div>
+    </body>
+</html>
